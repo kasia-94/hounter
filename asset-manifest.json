@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/hounter/static/js/main.46605e8f.js",
+    "main.js": "/hounter/static/js/main.c3adfe68.js",
     "index.html": "/hounter/index.html",
-    "main.46605e8f.js.map": "/hounter/static/js/main.46605e8f.js.map"
+    "main.c3adfe68.js.map": "/hounter/static/js/main.c3adfe68.js.map"
   },
   "entrypoints": [
-    "static/js/main.46605e8f.js"
+    "static/js/main.c3adfe68.js"
   ]
 }
