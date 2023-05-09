@@ -10,10 +10,11 @@ export const App = () => {
     <>
       <GlobalStyles />
       <Routes>
-        <Route element={<Layout />}>
-          <Route path="/" element={<Home />}></Route>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />}></Route>
           <Route path="/article" element={<Article />} />
           <Route path="/property" element={<Property />} />
+          <Route path="*" element={<div>NOT FOUND</div>} />
         </Route>
       </Routes>
     </>
