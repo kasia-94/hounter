@@ -4,7 +4,8 @@ export const colors = {
   mainText: '#626687',
   grey: '#888B97',
   white: '#FFFFFF',
-  accentBtn: '#10B981',
+  menuText: '#F0F3FD',
+  accentBtn: '#D1FAE5',
   accentText: '#047857',
   secondaryAccent: '#D1FAE5',
   section: '#F59E0B',
@@ -20,7 +21,7 @@ export const colors = {
 };
 
 export const device = {
-  limited: `@media screen and (min-width: 490px) and (max-width: 1439px)`,
-  narrow: `@media screen and (max-width: 1439px)`,
-  wide: `@media screen and (min-width: 1440px)`,
+  mobile: `@media screen and (min-width: 320px)`,
+  tablet: `@media screen and (mim-width: 768px)`,
+  full: `@media screen and (min-width: 1200px)`,
 };
