@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.js": "/hounter/static/js/main.a79ec6ff.js",
+    "main.js": "/hounter/static/js/main.27105295.js",
+    "static/media/main-wallpaper.jpg": "/hounter/static/media/main-wallpaper.bd8c1ff06158895402f1.jpg",
     "index.html": "/hounter/index.html",
-    "main.a79ec6ff.js.map": "/hounter/static/js/main.a79ec6ff.js.map"
+    "static/media/logo.svg": "/hounter/static/media/logo.81040439079c64f5fa5c1905ac18f708.svg",
+    "main.27105295.js.map": "/hounter/static/js/main.27105295.js.map"
   },
   "entrypoints": [
-    "static/js/main.a79ec6ff.js"
+    "static/js/main.27105295.js"
   ]
 }
