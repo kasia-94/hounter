@@ -37,7 +37,7 @@ export const Hero = () => {
             </li>
           </ul>
         </div>
-        {/* <Background></Background> */}
+        <Background></Background>
       </Section>
     </>
   );

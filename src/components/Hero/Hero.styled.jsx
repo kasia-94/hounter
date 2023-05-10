@@ -12,7 +12,6 @@ export const Background = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(${wallpaper});
-  /* position: absolute; */
 `;
 
 export const IconsPartners = styled.img`
