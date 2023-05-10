@@ -15,12 +15,12 @@ html {
 body {
   font-family: 'Lexend', sans-serif;
   letter-spacing: 0.04em;
-  background-color: ${colors.background};
   color: ${colors.mainText};
   margin: 0;
   padding: 0;
   min-width: 320px;
   height: 100%;
+  font-weight: 400;
 }
 
 h1,
