@@ -4,9 +4,10 @@ export const HeaderDiv = styled.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
+  z-index: 3;
 `;
 
 export const Menu = styled.div`
@@ -14,5 +15,5 @@ export const Menu = styled.div`
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  z-index: 2;
+  z-index: 3;
 `;

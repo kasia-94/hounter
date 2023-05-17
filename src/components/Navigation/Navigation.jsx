@@ -17,16 +17,14 @@ export const Navigation = () => {
     },
   ];
   return (
-    <>
-      <nav>
-        <MenuList>
-          {menuList.map(({ name, path }) => (
-            <Item key={name}>
-              <NavLink to={path}>{name}</NavLink>
-            </Item>
-          ))}
-        </MenuList>
-      </nav>
-    </>
+    <nav>
+      <MenuList>
+        {menuList.map(({ name, path }) => (
+          <Item key={name}>
+            <NavLink to={path}>{name}</NavLink>
+          </Item>
+        ))}
+      </MenuList>
+    </nav>
   );
 };

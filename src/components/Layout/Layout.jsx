@@ -3,6 +3,7 @@ import { Loader } from 'components/Loader/Loader';
 import React, { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Container } from './Layout.styled';
+// import { Burger } from 'components/Burger/Burger';
 
 const Layout = () => {
   return (

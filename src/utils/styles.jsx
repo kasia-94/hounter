@@ -1,6 +1,7 @@
 export const colors = {
   background: '#f0f0f0',
   title: '#1B1C57',
+  desc: '#68799F',
   mainText: '#626687',
   grey: '#888B97',
   white: '#FFFFFF',
@@ -18,6 +19,7 @@ export const colors = {
   subTitleDesc: '#3C4563',
   mail: '#3B82F6',
   icon: '#3C4563',
+  greenBtn: '#10b981',
 };
 
 export const device = {

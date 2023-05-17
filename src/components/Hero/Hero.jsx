@@ -1,12 +1,8 @@
-import partner1 from '../../assets/Hero/partner1.png';
-import partner2 from '../../assets/Hero/partner2.png';
-import partner3 from '../../assets/Hero/partner3.png';
-import partner4 from '../../assets/Hero/partner4.png';
+import { partners } from 'db/partners';
 import mappin from '../../assets/Hero/mappin.svg';
 import {
   Background,
   IconsPartners,
-  Lines,
   MainText,
   StyleTitle,
   Section,
@@ -17,12 +13,17 @@ import {
   PartnerList,
   Input,
   MapPin,
+  Blur,
+  ButtonSearch,
 } from './Hero.styled';
+import { FiChevronRight } from 'react-icons/fi';
+import { HeroPagination } from 'components/HeroPagination/HeroPagination';
 
 export const Hero = () => {
   return (
     <>
       <Section>
+        <Blur></Blur>
         <MainText>
           <Title>
             find the place to live <StyleTitle>your dreams</StyleTitle> easily
@@ -33,34 +34,31 @@ export const Hero = () => {
             where it will be easier for you
           </PreTitle>
           <Search>
-            <MapPin src={mappin} />
-            <Input
-              type="text"
-              placeholder="Search for the location you want!"
-            />
-            <button>Search</button>
+            <>
+              <MapPin src={mappin} />
+              <Input
+                type="text"
+                placeholder="Search for the location you want!"
+              />
+            </>
+            <ButtonSearch>
+              Search <FiChevronRight size={20} />
+            </ButtonSearch>
           </Search>
           <PartnerTitle>Our Partnership </PartnerTitle>
           <PartnerList>
-            <li>
-              <IconsPartners src={partner1} alt="partner" />
-            </li>
-            <li>
-              <IconsPartners src={partner2} alt="partner" />
-            </li>
-            <li>
-              <IconsPartners src={partner3} alt="partner" />
-            </li>
-            <li>
-              <IconsPartners src={partner4} alt="partner" />
-            </li>
+            {partners.map(({ id, icon, alt }) => {
+              return (
+                <li key={id}>
+                  <IconsPartners src={icon} alt={alt} />
+                </li>
+              );
+            })}
           </PartnerList>
         </MainText>
-        <>
-          <Background>
-            <Lines></Lines>
-          </Background>
-        </>
+
+        <Background></Background>
+        <HeroPagination />
       </Section>
     </>
   );
