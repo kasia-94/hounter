@@ -3,7 +3,6 @@ import icon2 from '../../assets/Hero/pag2.png';
 import icon3 from '../../assets/Hero/pag3.png';
 import { Desc, Icon, Item, List, Title } from './HeroPagination.styled';
 import { register } from 'swiper/element/bundle';
-import { useEffect, useRef } from 'react';
 register();
 
 export const HeroPagination = () => {
@@ -22,20 +21,9 @@ export const HeroPagination = () => {
       description: 'People Looking for New Homes',
     },
   ];
-
-  const swiperElRef = useRef(null);
-
-  useEffect(() => {
-    swiperElRef.current.addEventListener('progress', e => {
-      const [swiper, progress] = e.detail;
-      console.log(progress);
-    });
-
-    swiperElRef.current.addEventListener('slidechange', e => {});
-  }, []);
   return (
     <List>
-      <swiper-container ref={swiperElRef} slides-per-view="2" autoplay={true}>
+      <swiper-container slides-per-view="2" autoplay={true}>
         {pagination.map(({ id, icon, title, description }) => {
           return (
             <swiper-slide data-swiper-autoplay="2000" key={id}>
