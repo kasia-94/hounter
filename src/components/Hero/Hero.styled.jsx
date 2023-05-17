@@ -20,7 +20,7 @@ export const Background = styled.div`
   display: flex;
   position: absolute;
   margin-top: -200px;
-  margin-left: 152px;
+  margin-left: 146px;
   width: 100%;
   height: 720px;
   background-size: contain;
@@ -116,7 +116,7 @@ export const ButtonSearch = styled.button`
   width: 109px;
   height: 50px;
 
-  background: ${colors.greenBtn};
+  background-color: ${colors.greenBtn};
   border-radius: 32px;
   border-color: transparent;
   font-family: 'Lexend';
@@ -124,6 +124,14 @@ export const ButtonSearch = styled.button`
   font-size: 14px;
   line-height: 1.57;
   color: ${colors.white};
+  cursor: pointer;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+
+  :focus,
+  :hover {
+    color: ${colors.greenBtn};
+    background-color: ${colors.secondaryAccent};
+  }
 `;
 
 export const PartnerTitle = styled.p`

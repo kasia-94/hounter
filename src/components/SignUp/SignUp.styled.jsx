@@ -14,4 +14,11 @@ export const Button = styled.button`
   font-size: 14px;
   line-height: 1.57;
   cursor: pointer;
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+
+  :focus,
+  :hover {
+    color: ${colors.white};
+    background-color: ${colors.greenBtn};
+  }
 `;
