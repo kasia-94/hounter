@@ -9,6 +9,32 @@ export const Section = styled.footer`
   justify-content: space-between;
   margin-top: 120px;
   margin-bottom: 80px;
+
+  /* ::after {
+    content: '';
+    width: 438px;
+    height: 494px;
+    left: 1394px;
+    top: 4268px;
+
+    background: #b9ff82;
+    opacity: 0.3;
+    filter: blur(60px);
+    transform: rotate(45deg);
+  } */
+
+  /* ::before {
+    content: '';
+    position: absolute;
+    width: 438px;
+    height: 494px;
+    left: 77%;
+    margin-top: -187px;
+    margin-left: 945px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(${blur2});
+  }  */
 `;
 
 export const List = styled.div`
@@ -19,14 +45,16 @@ export const List = styled.div`
 export const Nav = styled.div`
   display: flex;
   flex-direction: row;
+
+  div {
+    margin-right: 88px;
+    :last-child {
+      margin-right: 0;
+    }
+  }
 `;
 
 export const NavList = styled.ul`
-  margin-right: 88px;
-  :last-child {
-    margin-right: 0;
-  }
-
   li {
     margin-bottom: 18px;
     :last-child {

@@ -1,7 +1,7 @@
 import { Logo } from 'components/Logo/Logo';
 import {
-  //   BlurBlue,
-  //   BlurGreen,
+  // BlurBlue,
+  // BlurGreen,
   IconItem,
   IconList,
   Item,
@@ -55,50 +55,54 @@ export const Footer = () => {
         </IconList>
       </List>
       <Nav>
-        <NavList>
+        <div>
           <NameList>Property</NameList>
-          <li>
-            <Item href="">House</Item>
-          </li>
-          <li>
-            <Item href="">Apartment</Item>
-          </li>
-          <li>
-            <Item href="">Villa</Item>
-          </li>
-        </NavList>
-
-        <NavList>
+          <NavList>
+            <li>
+              <Item href="">House</Item>
+            </li>
+            <li>
+              <Item href="">Apartment</Item>
+            </li>
+            <li>
+              <Item href="">Villa</Item>
+            </li>
+          </NavList>
+        </div>
+        <div>
           <NameList>Article</NameList>
-          <li>
-            <Item href="">New Article</Item>
-          </li>
-          <li>
-            <Item href="">Popular Article</Item>
-          </li>
-          <li>
-            <Item href="">Most Read</Item>
-          </li>
-          <li>
-            <Item href="">Tips & Tricks</Item>
-          </li>
-        </NavList>
-
-        <NavList>
+          <NavList>
+            <li>
+              <Item href="">New Article</Item>
+            </li>
+            <li>
+              <Item href="">Popular Article</Item>
+            </li>
+            <li>
+              <Item href="">Most Read</Item>
+            </li>
+            <li>
+              <Item href="">Tips & Tricks</Item>
+            </li>
+          </NavList>
+        </div>
+        <div>
           <NameList>Contact</NameList>
-          <li>
-            <Item>2464 Royal Ln. Mesa, New Jersey 45463</Item>
-          </li>
-          <li>
-            <Item href="tel:+6715550110">(671) 555-0110</Item>
-          </li>
-          <li>
-            <Item href="mailto:info@hounter.com">info@hounter.com</Item>
-          </li>
-        </NavList>
+          <NavList>
+            <li>
+              <Item>2464 Royal Ln. Mesa, New Jersey 45463</Item>
+            </li>
+            <li>
+              <Item href="tel:+6715550110">(671) 555-0110</Item>
+            </li>
+            <li>
+              <Item href="mailto:info@hounter.com">info@hounter.com</Item>
+            </li>
+          </NavList>
+        </div>
       </Nav>
-
-      {/* <BlurGreen></BlurGreen>
+      {/* 
+      <BlurGreen></BlurGreen>
       <BlurBlue></BlurBlue> */}
     </Section>
   );

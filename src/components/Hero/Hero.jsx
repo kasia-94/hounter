@@ -35,7 +35,7 @@ export const Hero = () => {
           </PreTitle>
           <Search>
             <>
-              <MapPin src={mappin} />
+              <MapPin src={mappin} alt="mappin" />
               <Input
                 type="text"
                 placeholder="Search for the location you want!"

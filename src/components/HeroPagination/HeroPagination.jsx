@@ -3,6 +3,7 @@ import icon2 from '../../assets/Hero/pag2.png';
 import icon3 from '../../assets/Hero/pag3.png';
 import { Desc, Icon, Item, List, Title } from './HeroPagination.styled';
 import { register } from 'swiper/element/bundle';
+
 register();
 
 export const HeroPagination = () => {

@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import { colors } from 'utils/styles';
 
-export const List = styled.ul`
+export const List = styled.div`
   position: absolute;
   margin-top: 350px;
   margin-left: 672px;
   width: 650px;
 `;
 
-export const Item = styled.li`
+export const Item = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
