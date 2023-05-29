@@ -5,6 +5,10 @@ import Layout from './Layout/Layout';
 import { Article } from 'pages/Article/Article';
 import { Property } from 'pages/Property/Property';
 
+import { register } from 'swiper/element/bundle';
+
+register();
+
 export const App = () => {
   return (
     <>

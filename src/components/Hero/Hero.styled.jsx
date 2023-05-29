@@ -98,6 +98,7 @@ export const MapPin = styled.img`
 export const Input = styled.input`
   width: 303px;
   border: none;
+  outline: none;
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
