@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.js": "/hounter/static/js/main.f3dadb1f.js",
+    "main.js": "/hounter/static/js/main.b4eef382.js",
+    "static/media/test.png": "/hounter/static/media/test.fdabcc70a954dd556897.png",
+    "static/media/icon.png": "/hounter/static/media/icon.870b06a5896b283d8d0d.png",
     "static/media/blur-1.png": "/hounter/static/media/blur-1.e237d210e28ee827419e.png",
+    "static/media/image2.jpg": "/hounter/static/media/image2.5200da0233b10442ec53.jpg",
     "static/media/icon2.jpg": "/hounter/static/media/icon2.fc6d530729921fef4850.jpg",
     "static/media/blur-2.png": "/hounter/static/media/blur-2.3733541718dc4b5dab32.png",
     "static/media/icon1.jpg": "/hounter/static/media/icon1.542bccbd570518579381.jpg",
     "static/media/icon3.jpg": "/hounter/static/media/icon3.e5eb241ee448399be5f6.jpg",
+    "static/media/icon1.png": "/hounter/static/media/icon1.a6da5375dd8f695690a5.png",
+    "static/media/icon2.png": "/hounter/static/media/icon2.26e3d1e3405935570ae7.png",
+    "static/media/icon3.png": "/hounter/static/media/icon3.83be0a5f94fe82fa2ac0.png",
+    "static/media/image3.jpg": "/hounter/static/media/image3.caa30bd66a39f47dde4a.jpg",
+    "static/media/image1.jpg": "/hounter/static/media/image1.3e9988780184914217e6.jpg",
     "static/media/main-wallpaper.jpg": "/hounter/static/media/main-wallpaper.d15946719f046bcdc7f8.jpg",
+    "static/media/avatar2.webp": "/hounter/static/media/avatar2.4ea0198d157b5ac7bbc9.webp",
     "static/media/pag1.png": "/hounter/static/media/pag1.d24b867b062451c57eec.png",
     "static/media/5.png": "/hounter/static/media/5.e04d1460e1dcb6e4d4aa.png",
     "static/media/1.png": "/hounter/static/media/1.17dbb5f6343334ee09fc.png",
+    "static/media/avatar1.webp": "/hounter/static/media/avatar1.4bffd464d427807c9acc.webp",
     "index.html": "/hounter/index.html",
     "static/media/mappin.svg": "/hounter/static/media/mappin.f0a0c229552d57fdff3efd45c4600750.svg",
     "static/media/logo.svg": "/hounter/static/media/logo.adb9f1331216f7d3f265889edaa39962.svg",
     "static/media/mail.svg": "/hounter/static/media/mail.d32b3c1045ecc4cbb4e984fc2b0105ac.svg",
-    "main.f3dadb1f.js.map": "/hounter/static/js/main.f3dadb1f.js.map"
+    "main.b4eef382.js.map": "/hounter/static/js/main.b4eef382.js.map"
   },
   "entrypoints": [
-    "static/js/main.f3dadb1f.js"
+    "static/js/main.b4eef382.js"
   ]
 }
