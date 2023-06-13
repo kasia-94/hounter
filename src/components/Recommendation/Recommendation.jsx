@@ -1,4 +1,4 @@
-import { Line, Title } from 'components/GlobalStyles';
+import { Line, MainTitle, Title } from 'components/GlobalStyles';
 import {
   Box,
   Button,
@@ -9,7 +9,6 @@ import {
   IconBox,
   Image,
   List,
-  MainTitle,
   Owner,
   OwnerBox,
   Price,

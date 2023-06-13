@@ -22,6 +22,8 @@ body {
   min-width: 320px;
   height: 100%;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   outline: none;
 }
 
@@ -69,4 +71,13 @@ export const Title = styled.p`
 
   text-transform: capitalize;
   color: ${colors.section};
+`;
+
+export const MainTitle = styled.h2`
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+
+  text-transform: capitalize;
+  color: ${colors.title};
 `;
