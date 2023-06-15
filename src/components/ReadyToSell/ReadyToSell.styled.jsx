@@ -36,13 +36,12 @@ export const ListTitle = styled.p`
 export const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  margin-top: 16px;
 `;
 
 export const Item = styled.li`
   display: flex;
   flex-basis: calc((100%) / 2);
-  margin: 14px 0;
+  margin: 0 0 14px 0;
   align-items: center;
 
   svg {
@@ -102,6 +101,7 @@ export const Button = styled.button`
   line-height: 1.57;
 
   color: ${colors.white};
+  fill: ${colors.white};
   transition: fill 0.12s ease, background-color 0.12s ease, color 0.12s ease;
 
   &:hover,

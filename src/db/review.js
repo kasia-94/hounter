@@ -1,10 +1,10 @@
-import image1 from '../assets/Review/image1.jpg';
-import image2 from '../assets/Review/image2.jpg';
-import image3 from '../assets/Review/image3.jpg';
+import image1 from '../assets/Review/image1.webp';
+import image2 from '../assets/Review/image2.webp';
+import image3 from '../assets/Review/image3.webp';
 
-import avatar1 from '../assets/Recommendation/avatar1.png';
-import avatar2 from '../assets/Recommendation/avatar2.png';
-import avatar3 from '../assets/Recommendation/avatar3.png';
+import avatar1 from '../assets/Recommendation/avatar1.webp';
+import avatar2 from '../assets/Recommendation/avatar2.webp';
+import avatar3 from '../assets/Recommendation/avatar3.webp';
 
 export const review = [
   {

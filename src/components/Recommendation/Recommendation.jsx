@@ -15,13 +15,12 @@ import {
   Section,
   TitleBox,
 } from './Recommendation.styled';
-import { MdVilla, MdApartment } from 'react-icons/md';
-import {
-  BsFillHouseDoorFill,
-  BsChevronLeft,
-  BsChevronRight,
-} from 'react-icons/bs';
 import { recommendList } from 'db/recommendation';
+import { ReactComponent as HouseIcon } from '../../assets/svg/icon-house.svg';
+import { ReactComponent as ApartIcon } from '../../assets/svg/icon-apartment.svg';
+import { ReactComponent as VillaIcon } from '../../assets/svg/icon-villa.svg';
+import { ReactComponent as Right } from '../../assets/svg/arrow-right.svg';
+import { ReactComponent as Left } from '../../assets/svg/arrow-left.svg';
 
 export const Recommendation = () => {
   return (
@@ -36,32 +35,31 @@ export const Recommendation = () => {
           <List>
             <li>
               <Button>
-                <BsFillHouseDoorFill size={18} />
+                <HouseIcon />
                 House
               </Button>
             </li>
             <li>
               <Button>
-                <MdVilla size={18} />
+                <VillaIcon />
                 Villa
               </Button>
             </li>
             <li>
               <Button>
-                <MdApartment size={18} />
-                Apartment
+                <ApartIcon /> Apartment
               </Button>
             </li>
           </List>
           <List>
             <li style={{ marginRight: 16 }}>
               <ButtonRL>
-                <BsChevronLeft size={18} />
+                <Left />
               </ButtonRL>
             </li>
             <li>
               <ButtonRL>
-                <BsChevronRight size={18} />
+                <Right />
               </ButtonRL>
             </li>
           </List>

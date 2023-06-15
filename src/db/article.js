@@ -1,10 +1,10 @@
 import avatar1 from '../assets/Article/avatar1.webp';
 import avatar2 from '../assets/Article/avatar2.webp';
 
-import icon from '../assets/Article/icon.png';
-import icon1 from '../assets/Article/icon1.png';
-import icon2 from '../assets/Article/icon2.png';
-import icon3 from '../assets/Article/icon3.png';
+import icon from '../assets/Article/icon.webp';
+import icon1 from '../assets/Article/icon1.webp';
+import icon2 from '../assets/Article/icon2.webp';
+import icon3 from '../assets/Article/icon3.webp';
 
 export const articles = [
   {

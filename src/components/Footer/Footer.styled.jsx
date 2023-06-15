@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { colors } from 'utils/styles';
-import blur1 from '../../assets/Footer/blur-1.png';
-import blur2 from '../../assets/Footer/blur-2.png';
+import blur1 from '../../assets/Footer/blur-1.webp';
+import blur2 from '../../assets/Footer/blur-2.webp';
 
 export const Section = styled.footer`
   position: relative;
@@ -66,6 +66,7 @@ export const NavList = styled.ul`
 export const IconList = styled.ul`
   display: flex;
 `;
+
 export const IconItem = styled.li`
   margin-right: 30px;
   transform: scale(1);
@@ -76,11 +77,11 @@ export const IconItem = styled.li`
   :hover {
     transform: scale(1.5);
   }
-
   a {
-    transition: color 250ms ease-in-out;
+    fill: ${colors.icon};
+    transition: fill 250ms ease-in-out;
     :hover {
-      color: ${colors.greenBtn};
+      fill: ${colors.greenBtn};
     }
   }
 `;

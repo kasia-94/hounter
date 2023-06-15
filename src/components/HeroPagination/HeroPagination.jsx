@@ -1,6 +1,6 @@
-import icon1 from '../../assets/Hero/pag1.png';
-import icon2 from '../../assets/Hero/pag2.png';
-import icon3 from '../../assets/Hero/pag3.png';
+import icon1 from '../../assets/Hero/pag1.webp';
+import icon2 from '../../assets/Hero/pag2.webp';
+import icon3 from '../../assets/Hero/pag3.webp';
 import { Desc, Icon, Item, List, Title } from './HeroPagination.styled';
 
 export const HeroPagination = () => {

@@ -7,7 +7,7 @@ import {
   Section,
   Title,
 } from './Subscribe.styled';
-import mail from '../../assets/Subscribe/mail.svg';
+import mail from '../../assets/svg/mail.svg';
 
 export const Subscribe = () => {
   return (

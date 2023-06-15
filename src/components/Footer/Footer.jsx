@@ -12,8 +12,9 @@ import {
   Section,
   Title,
 } from './Footer.styled';
-import { FaFacebookF, FaTwitter } from 'react-icons/fa';
-import { AiFillInstagram } from 'react-icons/ai';
+import { ReactComponent as Facebook } from '../../assets/svg/icon-facebook.svg';
+import { ReactComponent as Twitter } from '../../assets/svg/icon-twitter.svg';
+import { ReactComponent as Instagram } from '../../assets/svg/icon-instagram.svg';
 
 export const Footer = () => {
   return (
@@ -31,7 +32,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <FaFacebookF size={20} />
+              <Facebook />
             </a>
           </IconItem>
           <IconItem>
@@ -40,7 +41,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <FaTwitter size={20} />
+              <Twitter />
             </a>
           </IconItem>
           <IconItem>
@@ -49,7 +50,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <AiFillInstagram size={20} />
+              <Instagram />
             </a>
           </IconItem>
         </IconList>

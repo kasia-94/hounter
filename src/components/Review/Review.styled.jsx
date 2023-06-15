@@ -37,6 +37,7 @@ export const Box = styled.div`
 `;
 
 export const ArticleTitle = styled.p`
+  margin-left: 16px;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.25;

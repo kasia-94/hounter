@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import wallpaper from '../../assets/Hero/main-wallpaper.jpg';
-import lines from '../../assets/Hero/lines.png';
-import blur from '../../assets/Hero/blur-1.png';
+import wallpaper from '../../assets/Hero/main-wallpaper.webp';
+import lines from '../../assets/Hero/lines.webp';
+import blur from '../../assets/Hero/blur-1.webp';
 import { colors } from 'utils/styles';
+import { ReactComponent as Arrow } from '../../assets/svg/arrow-right.svg';
 
 export const Section = styled.section`
   display: flex;
@@ -95,6 +96,13 @@ export const MapPin = styled.img`
   margin-left: 27px;
 `;
 
+export const ArrowRight = styled(Arrow)`
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+  fill: ${colors.white};
+`;
+
 export const Input = styled.input`
   width: 303px;
   border: none;
@@ -132,6 +140,10 @@ export const ButtonSearch = styled.button`
   :hover {
     color: ${colors.greenBtn};
     background-color: ${colors.secondaryAccent};
+
+    svg {
+      fill: ${colors.greenBtn};
+    }
   }
 `;
 

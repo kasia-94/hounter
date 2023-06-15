@@ -1,7 +1,7 @@
-import partner1 from '../assets/Hero/partner1.png';
-import partner2 from '../assets/Hero/partner2.png';
-import partner3 from '../assets/Hero/partner3.png';
-import partner4 from '../assets/Hero/partner4.png';
+import partner1 from '../assets/Hero/partner1.webp';
+import partner2 from '../assets/Hero/partner2.webp';
+import partner3 from '../assets/Hero/partner3.webp';
+import partner4 from '../assets/Hero/partner4.webp';
 
 export const partners = [
   {

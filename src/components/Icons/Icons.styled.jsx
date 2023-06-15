@@ -8,6 +8,12 @@ export const IconBox = styled.div`
   line-height: 1.29;
 `;
 
+export const Icon = styled.img`
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+`;
+
 export const FireBox = styled.div`
   display: flex;
   justify-content: center;
@@ -28,6 +34,10 @@ export const HouseBox = styled.div`
   background-color: ${colors.newItemBgc};
   color: ${colors.newItem};
   fill: ${colors.newItem};
+
+  svg {
+    fill: ${colors.newItem};
+  }
 `;
 
 export const WalletBox = styled.div`

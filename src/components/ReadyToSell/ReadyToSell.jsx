@@ -14,13 +14,14 @@ import {
   Section,
   TitleBox,
 } from './ReadyToSell.styled';
-import { IoBed, IoCarSportSharp } from 'react-icons/io5';
-import { FaBath } from 'react-icons/fa';
-import { GiStairs } from 'react-icons/gi';
-import { BsFillTelephoneFill } from 'react-icons/bs';
 
 import test from '../../assets/test.png';
-import icon from '../../assets/Recommendation/avatar1.png';
+import icon from '../../assets/Recommendation/avatar1.webp';
+import { ReactComponent as Car } from '../../assets/svg/icon-car.svg';
+import { ReactComponent as Bath } from '../../assets/svg/icon-bath.svg';
+import { ReactComponent as Stairs } from '../../assets/svg/icon-stairs.svg';
+import { ReactComponent as Bed } from '../../assets/svg/icon-bed.svg';
+import { ReactComponent as Phone } from '../../assets/svg/icon-phone.svg';
 
 export const ReadyToSell = () => {
   return (
@@ -41,16 +42,16 @@ export const ReadyToSell = () => {
             <ListTitle>House Detail</ListTitle>
             <List>
               <Item>
-                <IoBed size={32} /> 4 Bedrooms
+                <Bed /> 4 Bedrooms
               </Item>
               <Item>
-                <IoCarSportSharp size={32} />1 Carport
+                <Car />1 Carport
               </Item>
               <Item>
-                <FaBath size={32} /> 2 Bathrooms
+                <Bath /> 2 Bathrooms
               </Item>
               <Item>
-                <GiStairs size={32} />2 Floors
+                <Stairs />2 Floors
               </Item>
             </List>
             <BaseLine></BaseLine>
@@ -63,7 +64,7 @@ export const ReadyToSell = () => {
                 </div>
               </Owner>
               <Button>
-                <BsFillTelephoneFill size={18} />
+                <Phone />
                 <a href="tel:+6715550110">Contact Now</a>
               </Button>
             </Contact>

@@ -18,7 +18,7 @@ import {
   TitleBox,
 } from './Article.styled';
 import { articles, mainArticle } from 'db/article';
-import { AiFillClockCircle } from 'react-icons/ai';
+import { ReactComponent as Clock } from '../../assets/svg/icon-clock.svg';
 
 export const Article = () => {
   return (
@@ -45,10 +45,7 @@ export const Article = () => {
                     </AvatarBox>
                     <ArticleName>{title}</ArticleName>
                     <Time>
-                      <AiFillClockCircle
-                        size={20}
-                        style={{ marginRight: 14 }}
-                      />
+                      <Clock />
                       <p>{time}</p>
                     </Time>
                   </div>
@@ -70,10 +67,7 @@ export const Article = () => {
                       <MainArticleName>{title}</MainArticleName>
                       <MainDesc>{desc}</MainDesc>
                       <Time>
-                        <AiFillClockCircle
-                          size={20}
-                          style={{ marginRight: 14 }}
-                        />
+                        <Clock />
                         <p>{time}</p>
                       </Time>
                     </div>

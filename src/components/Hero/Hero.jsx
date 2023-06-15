@@ -1,5 +1,5 @@
 import { partners } from 'db/partners';
-import mappin from '../../assets/Hero/mappin.svg';
+import mappin from '../../assets/svg/mappin.svg';
 import {
   Background,
   IconsPartners,
@@ -15,8 +15,8 @@ import {
   MapPin,
   Blur,
   ButtonSearch,
+  ArrowRight,
 } from './Hero.styled';
-import { FiChevronRight } from 'react-icons/fi';
 import { HeroPagination } from 'components/HeroPagination/HeroPagination';
 
 export const Hero = () => {
@@ -42,7 +42,7 @@ export const Hero = () => {
               />
             </>
             <ButtonSearch>
-              Search <FiChevronRight size={20} />
+              Search <ArrowRight />
             </ButtonSearch>
           </Search>
           <PartnerTitle>Our Partnership </PartnerTitle>

@@ -16,7 +16,7 @@ import {
   TitleBox,
 } from './Review.styled';
 import { review } from 'db/review';
-import { AiFillStar } from 'react-icons/ai';
+import { ReactComponent as Star } from '../../assets/svg/icon-star.svg';
 
 export const Review = () => {
   return (
@@ -50,11 +50,7 @@ export const Review = () => {
                             </NameBox>
                           </OwnerBox>
                           <RateBox>
-                            <AiFillStar
-                              size={23}
-                              fill={'#F59E0B'}
-                              style={{ marginRight: 18 }}
-                            />
+                            <Star />
                             <ArticleTitle>{rate}</ArticleTitle>
                           </RateBox>
                         </MainBox>

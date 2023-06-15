@@ -1,10 +1,10 @@
-import icon1 from '../assets/Recommendation/icon1.jpg';
-import icon2 from '../assets/Recommendation/icon2.jpg';
-import icon3 from '../assets/Recommendation/icon3.jpg';
+import icon1 from '../assets/Recommendation/icon1.webp';
+import icon2 from '../assets/Recommendation/icon2.webp';
+import icon3 from '../assets/Recommendation/icon3.webp';
 
-import avatar1 from '../assets/Recommendation/avatar1.png';
-import avatar2 from '../assets/Recommendation/avatar2.png';
-import avatar3 from '../assets/Recommendation/avatar3.png';
+import avatar1 from '../assets/Recommendation/avatar1.webp';
+import avatar2 from '../assets/Recommendation/avatar2.webp';
+import avatar3 from '../assets/Recommendation/avatar3.webp';
 import { IconFire, IconHouse, IconWallet } from 'components/Icons/Icons';
 
 const fire = <IconFire />;

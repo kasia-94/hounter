@@ -127,4 +127,8 @@ export const Time = styled.div`
   display: flex;
   align-items: center;
   color: ${colors.grey};
+
+  p {
+    margin-left: 14px;
+  }
 `;

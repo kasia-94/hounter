@@ -49,15 +49,18 @@ export const Button = styled.button`
   color: ${colors.grey};
   border: 1px solid ${colors.disabled};
   border-radius: 32px;
-  transition: fill 0.12s ease, background-color 0.12s ease;
+  transition: fill 0.12s ease, background-color 0.12s ease, color 0.12s ease;
   cursor: pointer;
   svg {
     fill: ${colors.grey};
+    width: 24px;
+    height: 24px;
     margin-right: 11px;
   }
   &:hover,
   &:active,
   &:focus {
+    color: ${colors.greenBtn};
     background-color: ${colors.accentBtn};
     border-color: ${colors.accentBtn};
     svg {
@@ -76,6 +79,8 @@ export const ButtonRL = styled.button`
   transition: fill 0.12s ease, background-color 0.12s ease;
   cursor: pointer;
   svg {
+    width: 28px;
+    height: 28px;
     fill: ${colors.subTitleDesc};
   }
 
